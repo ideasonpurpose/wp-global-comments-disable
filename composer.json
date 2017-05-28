@@ -9,9 +9,6 @@
             "email": "joe@ideasonpurpose.com"
         }
     ],
-    "scripts": {
-            "version": "version-everything && git add -u"
-    }
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^5.7"
