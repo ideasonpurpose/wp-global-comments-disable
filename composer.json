@@ -1,6 +1,6 @@
 {
-    "name": "ideasonpurpose/wp-theme-init",
-    "description": "A common baseline of repeated functions, filters and actions used across WordPress themes.",
+    "name": "ideasonpurpose/wp-global-comments-disable",
+    "description": "Disable comments everywhere",
     "license": "MIT",
     "keywords": ["wordpress", "plugin", "init", "Ideas On Purpose"],
     "authors": [
@@ -9,6 +9,9 @@
             "email": "joe@ideasonpurpose.com"
         }
     ],
+    "scripts": {
+            "version": "version-everything && git add -u"
+    }
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^5.7"
