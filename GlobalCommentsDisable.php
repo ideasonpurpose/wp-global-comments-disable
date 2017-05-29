@@ -2,7 +2,7 @@
 
 namespace ideasonpurpose;
 
-class GlobalCommentsDisable()
+class GlobalCommentsDisable
 {
     public function __construct()
     {
@@ -12,7 +12,6 @@ class GlobalCommentsDisable()
     public function postTypeSupport()
     {
         $types = get_post_types();
-        error_log(print_r($types, true));
         foreach ($types as $type) {
             if (post_type_supports($type, 'comments')) {
                 remove_post_type_support($type, 'comments');
